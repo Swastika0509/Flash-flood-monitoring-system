@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App defaults */
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100; }
+
+/* Focus ring for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #2563eb; /* brand-600 */
+  outline-offset: 2px;
+}
+
+/* Card helper classes */
+.card { @apply rounded-2xl border border-gray-200 dark:border-gray-800 bg-white/70 dark:bg-gray-900/70 shadow-sm backdrop-blur; }
+.card-pad { @apply p-4 sm:p-5 md:p-6; }
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -999px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 50;
+  /* use text-brand-700 (defined in tailwind.config.js) */
+  @apply bg-white dark:bg-gray-900 text-brand-700 dark:text-white px-3 py-2 rounded-md shadow;
+}
+

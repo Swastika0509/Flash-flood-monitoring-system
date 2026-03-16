@@ -1,0 +1,100 @@
+# =============================
+# 🌊 Flash Flood Monitoring Project
+# =============================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.db
+*.sqlite3
+*.log
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+*.pkl
+*.h5
+*.model
+*.joblib
+
+# --- Node.js / React Frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+dist/
+.cache/
+.next/
+out/
+
+# --- Flutter / Android / iOS (if mobile app used) ---
+*.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+ios/Pods/
+ios/Runner.xcworkspace/
+android/.gradle/
+android/app/build/
+*.apk
+*.aab
+
+# --- GIS / Mapping Files ---
+*.aux.xml
+*.lock
+*.tmp
+*.tif.aux
+*.zip
+*.rar
+*.tar.gz
+*.gpkg-wal
+*.gpkg-shm
+*.shx
+*.dbf
+*.prj
+*.qgs~
+*.qgz~
+*.bak
+
+# --- Data and Sensor Logs ---
+data/
+datasets/
+logs/
+*.csv
+*.json
+*.xml
+*.xls*
+*.txt
+sensor_logs/
+uploads/
+temp/
+tmp/
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- System Files ---
+desktop.ini
+*.lnk
+
+# --- Secrets and Credentials ---
+*.key
+*.pem
+*.crt
+*.p12
+credentials.json
+config.yaml
+secrets.json
+api_keys.txt
