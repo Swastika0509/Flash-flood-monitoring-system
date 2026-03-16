@@ -43,3 +43,5 @@ Components:
 | Cloud & Deployment | AWS / Azure / Render |
 | Notifications | Firebase / Twilio / Custom REST API |
 
+This was a group project
+Group partner: anishaalmao
